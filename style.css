@@ -1,0 +1,61 @@
+* {margin: 0; padding: 0;font-size: 100%; box-sizing: border-box;font-family:'Open Sans', sans-serif;}
+ul{list-style: none;}
+a{text-decoration:none;cursor: pointer;opacity: 0.9;}
+a:hover{opacity: 1;}
+
+.logo{width: 150px; height: 150px;}
+
+header {
+    background-color:rgb(37, 37, 37);
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 50px;
+}
+
+header ul{
+    display: flex;
+}
+
+header li a{
+    color:aqua;
+}
+
+header li{
+    margin:0 15px
+}
+
+header li:first-child{margin-left: 0;}
+header li:last-child{margin-right: 0;}
+
+.hero{
+    background-image: url('img/heroCover.png'); background-repeat:yes; background-size:cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1{
+    font-size:3.2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero h3{
+    font-size:2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero .btn {
+    background-image: url('img/psiHOTEL.gif'); background-repeat: yes; background-size:cover; background-position:center;
+    border-radius: 5px;
+    padding: 20px 50px;
+    color: black;
+}
